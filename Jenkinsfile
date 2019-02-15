@@ -6,6 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
+    CHART_REPOSITORY = 'http://montereyovn-2122966.slc07.dev.ebayc3.com:8082'
     DEPLOY_NAMESPACE = "jx-prow-opensource-staging"
   }
   stages {
