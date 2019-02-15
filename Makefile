@@ -1,4 +1,4 @@
-CHART_REPO := http://jenkins-x-chartmuseum:8080
+CHART_REPO := http://montereyovn-2122966.slc07.dev.ebayc3.com:8082
 DIR := "env"
 NAMESPACE := "jx-prow-opensource-staging"
 OS := $(shell uname)
